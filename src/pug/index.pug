@@ -246,7 +246,7 @@ html(lang='en')
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
                             h4 Valéria Bispo
-                            p.text-muted Diretora 
+                            p.text-muted CFO
                             a.btn.btn-dark.btn-social.mx-2(href='#!')
                                 i.fab.fa-whatsapp
                             a.btn.btn-dark.btn-social.mx-2(href='#!')
@@ -282,88 +282,7 @@ html(lang='en')
                     h2.section-heading.text-uppercase Contato
                     h3.section-subheading.text-muted Chegou a hora de você iniciar seu projeto conosco!
 
-                // * * * * * * * * * * * * * * *
-                // * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
-
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
-
-                form#contactForm(data-sb-form-api-token='a606e606-1964-4113-b929-0e02da582cb7')
-                    .row.align-items-stretch.mb-5
-                        .col-md-6
-                            .form-group
-
-                                // Name input
-                                input#name.form-control(
-                                    type='text',
-                                    placeholder='Digite aqui seu nome *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='name:required')
-                                    | Qual seu nome?
-
-                            .form-group
-
-                                // Email address input
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='Digite aqui seu email *',
-                                    data-sb-validations='required,email'
-                                )
-                                .invalid-feedback(data-sb-feedback='email:required')
-                                    | Qual seu email?
-                                .invalid-feedback(data-sb-feedback='email:email')
-                                    | Email inválido :(
-
-                            .form-group.mb-md-0
-
-                                // Phone number input
-                                input#phone.form-control(
-                                    type='tel',
-                                    placeholder='Digite aqui seu telefone *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='phone:required')
-                                    | Qual seu telefone?
-
-                        .col-md-6
-                            .form-group.form-group-textarea.mb-md-0
-
-                                // Message input
-                                textarea#message.form-control(
-                                    placeholder='Digite aqui sua mensagem *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='message:required')
-                                    | Qual sua mensagem?
-
-                    // Submit success message
-                    //
-                    // This is what your users will see when the form
-                    // has successfully submitted
-
-                    #submitSuccessMessage.d-none
-                        .text-center.text-white.mb-3
-                            .fw-bolder Mensagem enviada com sucesso :)
-                            | To activate this form, sign up at
-                            br
-                            a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-                    // Submit error message
-                    //
-                    // This is what your users will see when there is
-                    // an error submitting the form
-
-                    #submitErrorMessage.d-none
-                        .text-center.text-danger.mb-3 Erro ao enviar mensagem.Tente novamente.
-
-                    // Submit Button
-                    .text-center
-                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Enviar Mensagem
-
+               
         // Footer
         footer.footer.py-4
             .container
