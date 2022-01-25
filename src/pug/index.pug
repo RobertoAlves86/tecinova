@@ -267,18 +267,17 @@ html(lang='en')
                     h2.section-heading.text-monospace 
                     h3.section-subheading.text-muted Envie sua mensagem para nós!       
 
-// * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
+        // * * SB Forms Contact Form * *
+       
+        // This form is pre-integrated with SB Forms.
+        // To make this form functional, sign up at
+        // https://startbootstrap.com/solution/contact-forms
+        // to get an API token!
 
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
-
-                form#contactForm(data-sb-form-api-token='API_TOKEN')
-                    .row.align-items-stretch.mb-5
-                        .col-md-6
-                            .form-group
+        form#contactForm(data-sb-form-api-token='API_TOKEN')
+             .row.align-items-stretch.mb-5
+                 .col-md-6
+                 .form-group
                             
                            // Name input
                                input#name.form-control(
