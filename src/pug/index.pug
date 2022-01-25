@@ -266,6 +266,21 @@ html(lang='en')
                 .text-center
                     h2.section-heading.text-monospace 
                     h3.section-subheading.text-muted contato@tecinovaservicos.com.br
+                        <form name="contact" method="POST" data-netlify="true">
+
+        <p>
+          <label>Seu Nome: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Seu Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Mensagem: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+    </form>
                
         // Footer
         footer.footer.py-4
